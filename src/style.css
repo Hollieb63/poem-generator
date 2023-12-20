@@ -1,0 +1,27 @@
+body{
+    background: #bfddf2;
+    font-family: ;
+}
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+}
+.container{
+margin: 120px auto;
+max-width: 600px;
+}
+header{
+    margin-bottom:30px;
+}
+form{
+    padding: 30px;
+    background-color:#f9f7f7 ;
+    border-radius: 10px;
+    display: flex;
+}
+.prompt{
+    padding: 16px;
+    border: grey;
+}
