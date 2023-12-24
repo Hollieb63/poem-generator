@@ -1,6 +1,6 @@
 body{
     background: #bfddf2;
-    font-family: ;
+    font-family: sans-serif;
 }
 h1{
     font-weight: 800;
@@ -18,12 +18,9 @@ header{
     margin-bottom:30px;
 }
 form{
-    margin-bottom: 30px;
-    padding: 30px;
-    background-color:#f9f7f7 ;
-    border-radius: 10px;
+
     display: flex;
-    box-shadow: 10px 10px 17px 11px rgba(0, 0, 0, 0.1);
+
 
 }
 .prompt{
@@ -51,6 +48,8 @@ font-size: 15px;
     border-left:3px solid #398ec6; 
     padding: 20px;
     box-shadow: 10px 10px 17px 11px rgba(0, 0, 0, 0.1);
+   display: none;
+    color: black;
 }
 footer{
     text-align: center;
@@ -63,4 +62,16 @@ a{
 .poem strong{
     color: #398ec6;
     text-align: center; 
+}
+.form-wrapper{
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    background-color:#f9f7f7 ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 17px 11px rgba(0, 0, 0, 0.1);
+}
+.hint{
+    line-height: 1.5;
+    font-size: 13px;
+    margin-top: 5px;
 }
