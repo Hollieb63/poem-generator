@@ -48,8 +48,10 @@ font-size: 15px;
     border-left:3px solid #398ec6; 
     padding: 20px;
     box-shadow: 10px 10px 17px 11px rgba(0, 0, 0, 0.1);
-   display: none;
     color: black;
+}
+.hidden{
+    display: none;
 }
 footer{
     text-align: center;
@@ -75,3 +77,17 @@ a{
     font-size: 13px;
     margin-top: 5px;
 }
+    .generating {
+        animation: blink-animation 1s steps(5, start) infinite;
+      }
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
