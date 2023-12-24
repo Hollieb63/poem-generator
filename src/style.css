@@ -7,6 +7,8 @@ h1{
     font-size: 36px;
     line-height: 1.5;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+
 }
 .container{
 margin: 120px auto;
@@ -57,4 +59,8 @@ footer{
 }
 a{
     color: #398ec6;
+}
+.poem strong{
+    color: #398ec6;
+    text-align: center; 
 }
